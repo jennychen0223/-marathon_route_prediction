@@ -6,7 +6,7 @@
 
 <img width="749" alt="image" src="marathon-map.png">
 
-本專案目的為在如此大量的群眾路線組合中，如何訓練與建立出一個良好的決策模型將作是本次議題的挑戰。專案利用Python做資料探勘、數據分析、建立模型與效益評估。實作結果顯示，嘗試過Decision Tree Classifier, XGBoost, Lightgbm等模型，最終以XGBoost模型準確率達到96.0%為最優。
+本專案目的為在如此大量的群眾路線組合中，如何訓練與建立出一個良好的決策模型將作是本次議題的挑戰。專案利用Python做資料探勘、數據分析、建立模型與效益評估。實作結果顯示，嘗試過Decision Tree Classifier, XGBoost, Lightgbm模型，最終以XGBoost模型準確率達到96.0%為最優。
 ### 成果
 <img width="749" alt="image" src="截圖 2021-07-29 下午5.21.02.png">
 
@@ -38,6 +38,7 @@
 ## 建立模型
 
 1. 利用10-fold cross-validation方法交叉驗證模型效果
+2. 使用Decision Tree Classifier, XGBoost, Lightgbm進行模型評估
 
 ## 模型評估
 
